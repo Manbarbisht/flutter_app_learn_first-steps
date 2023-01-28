@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
         // ignore: avoid_unnecessary_containers
         child: Container(
           // ignore: prefer_const_constructors
-          child: Text("Welcome To $days Days by $name"),
+          child: Text("Welcome To $days Days of $name"),
         ),
       ),
       drawer: const Drawer(),
